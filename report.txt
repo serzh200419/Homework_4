@@ -1,0 +1,17 @@
+Homework 4 Report
+
+Symbols from nm
+main.o defines main, uses square
+math_utils.o defines square
+square_prog defines main, square, uses printf
+
+Sections from readelf
+Object files are .text, .data, .bss, .rel.text/.rel.data
+Executable are .text, .data, .bss, .rodata, .plt, .got
+Linking combines sections and resolves addresses
+
+Linking role
+Object files are relocatable, have unresolved symbols
+Linking combines object files, resolves addresses, produces executable
+External functions linked via PLT/GOT
+
