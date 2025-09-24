@@ -14,4 +14,4 @@ Linking role
 Object files are relocatable, have unresolved symbols
 Linking combines object files, resolves addresses, produces executable
 External functions linked via PLT/GOT
-
+Link of github https://github.com/serzh200419/Homework_4.git
